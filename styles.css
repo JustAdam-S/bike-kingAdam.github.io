@@ -1,0 +1,97 @@
+.content{
+    background-color:lightblue;
+    font-size:14px;
+}
+
+
+
+header{
+    background-color: cadetblue;
+    grid-area: header;
+    text-align:left;
+    
+    
+}
+
+footer{
+    background-color: royalblue;
+    grid-area: footer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    grid-area: footer;
+}
+
+nav{
+    background-color: yellowgreen;
+    border: 10px;
+    text-align: center;
+    display: inline;
+    grid-area: nav;
+}
+
+a:hover{
+    filter:drop-shadow(9px 9px 10px gray);
+    color: gray;
+}
+
+input{
+    width: 49.9%;
+    padding: 5px 12px;
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+.container2{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 50px;
+    background-color: cadetblue;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+#index1{
+    background-color: rgb(13, 227, 252);
+    padding:10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#index2{
+    background-color: rgb(13, 227, 252);
+    padding:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#position{
+    text-align: center;
+    line-height: 3rem;
+    word-spacing: 10px;
+    border: 10px, solid rgb(13, 227, 252);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: space-around;
+}
+
+#headerArea{
+    text-align: center;
+    background-color: cadetblue;
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+#hireArea{
+    text-align: center;
+    background-color: rgb(13, 227, 252);
+    font-size: larger;
+    padding: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
